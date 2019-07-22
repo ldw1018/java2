@@ -21,6 +21,7 @@ public class OopApplicationTests {
     public void test(){
         boolean userService = applicationContext.containsBean("userService");
         System.out.println(userService);
+		 System.out.println(userService);
     }
 
     @Test
