@@ -11,6 +11,7 @@ public class Dog {
     private Integer age;
 
     public String getName() {
+		System.out.println(11)
         return name;
     }
 
